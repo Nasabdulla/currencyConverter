@@ -4,7 +4,16 @@
 
 using namespace std;
 // Write your function here
+void reverse(vector<int>& num) {
+    int left = 0;
+    int right = num.size() - 1;
 
+    while (left < right) {
+        swap(num[left], num[right]);
+        ++left;
+        --right;
+    }
+}
 
 int main()
 {
@@ -12,7 +21,7 @@ int main()
     // Call your function, passing in the numbers vector
     // Write your function call here
 
-
+     reverse(numbers);
 
     
     // Don't modify the following line

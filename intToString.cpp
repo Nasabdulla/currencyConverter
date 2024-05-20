@@ -5,10 +5,8 @@ using namespace std;
 
 string intToString(long long num)
 {
-    // Write your code here
-
     
-    return to_string(num); // Modify this line to return the string representation of the integer
+    return to_string(num); 
 }
 
 int main()
